@@ -1,8 +1,8 @@
+package  Ly_Thuyet;
+
 import java.util.Scanner;
 
-public class LyThuyet_01 {
-    public LyThuyet_01() {
-    }
+public class Ly_Thuyet_01 {
     public static void main(String[] args) {
         long a = 16654654891516L;
         float b = 3.14651F;
@@ -25,7 +25,7 @@ public class LyThuyet_01 {
         int bne = 1000000;
         long aPlusb = (long)ane * (long)bne;
         System.out.println(aPlusb);
-        int canbac = 5;
-        System.out.println("\ncan bac 2 cua 5 la: " + Math.sqrt((double)canbac) + "\n");
+        double canbac = 5;
+        System.out.println("\ncan bac 2 cua 5 la: " + Math.sqrt(canbac) + "\n");
     }
 }
