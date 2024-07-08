@@ -7,6 +7,9 @@ public class B21_Ve_Hinh_1 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
+        //xác định số dòng của hình có mối quan hệ thế nào với inp
+        //xác định mỗi dòng in ra bao nhiêu kí tự
+        
         //hinh 1
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
